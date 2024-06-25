@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 517b7ff7-7a05-476b-bba1-d38361f3c931</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GestionBajaBienes</_name>
+			<_modifiedTimeWeak type="a">7.16.2020::6:44:42</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 77b24f33-203e-41de-84b6-46b83e3e6c79</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">7.16.2020::7:11:15</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">7.16.2020::6:44:42</weakCGTime>
+			<strongCGTime type="a">7.16.2020::6:44:42</strongCGTime>
+			<_defaultComposite type="s">GUID 8e5e98c6-1723-4d1b-87ae-523cd44ce909</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 7298144a-0afe-4349-a282-e93ec4bed9c4</value>
+				<value>GUID 8e5e98c6-1723-4d1b-87ae-523cd44ce909</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 7298144a-0afe-4349-a282-e93ec4bed9c4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Maestra</_name>
+			<_modifiedTimeWeak type="a">7.16.2020::6:44:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.16.2020::6:44:42</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\Maestra.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Maestra</_hname>
+					<_hid type="a">GUID 5377bf3e-2775-4c79-8237-75102c4ad329</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 517b7ff7-7a05-476b-bba1-d38361f3c931</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 8e5e98c6-1723-4d1b-87ae-523cd44ce909</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

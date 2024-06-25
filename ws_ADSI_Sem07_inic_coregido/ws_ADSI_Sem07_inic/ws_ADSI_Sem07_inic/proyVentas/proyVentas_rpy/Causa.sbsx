@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 1131708e-a3bf-4ce4-a62c-0bcd7f784caf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Causa</_name>
+			<_modifiedTimeWeak type="a">7.16.2020::6:38:14</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 77b24f33-203e-41de-84b6-46b83e3e6c79</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">7.16.2020::7:11:15</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">7.16.2020::6:38:14</weakCGTime>
+			<strongCGTime type="a">7.16.2020::6:38:14</strongCGTime>
+			<_defaultComposite type="s">GUID 75d536e8-bff2-468c-9be4-f20abf8f4b60</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 430e2128-1fb3-4e0e-80e1-abbce0b0d666</value>
+				<value>GUID f5c1abdd-05ab-4024-90d0-2ce3ab2f9c0b</value>
+				<value>GUID 75d536e8-bff2-468c-9be4-f20abf8f4b60</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 430e2128-1fb3-4e0e-80e1-abbce0b0d666</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GestionBajaBienes</_name>
+			<_modifiedTimeWeak type="a">7.16.2020::6:37:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.16.2020::6:37:59</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\GestionBajaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">GestionBajaBienes</_hname>
+					<_hid type="a">GUID 517b7ff7-7a05-476b-bba1-d38361f3c931</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 1131708e-a3bf-4ce4-a62c-0bcd7f784caf</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f5c1abdd-05ab-4024-90d0-2ce3ab2f9c0b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GestionAltaBienes</_name>
+			<_modifiedTimeWeak type="a">7.16.2020::6:38:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.16.2020::6:38:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">GestionAltaBienes</_hname>
+					<_hid type="a">GUID bb8e8144-ef60-4505-b70d-7fca64f9c541</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 1131708e-a3bf-4ce4-a62c-0bcd7f784caf</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 75d536e8-bff2-468c-9be4-f20abf8f4b60</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
