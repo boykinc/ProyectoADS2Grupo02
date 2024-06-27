@@ -12,7 +12,7 @@
 			<_id type="a">GUID 0bf1cafa-a1a2-4257-9d41-08cb68f62050</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">BajadeBienes</_name>
-			<_modifiedTimeWeak type="a">7.16.2020::5:12:36</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.16.2020::7:57:25</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,7 +22,7 @@
 					<_hid type="a">GUID 77b24f33-203e-41de-84b6-46b83e3e6c79</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">7.16.2020::5:12:36</_modifiedTime>
+			<_modifiedTime type="a">7.16.2020::9:32:17</_modifiedTime>
 			<_lastID type="a">10</_lastID>
 			<weakCGTime type="a">3.1.2021::6:50:40</weakCGTime>
 			<strongCGTime type="a">7.26.2021::5:4:28</strongCGTime>
@@ -49,6 +49,7 @@
 				<INObjectHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
 					<_hfilename type="a">.\Maestra.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
 					<_hname type="a">Maestra</_hname>
 					<_hid type="a">GUID 5377bf3e-2775-4c79-8237-75102c4ad329</_hid>
 				</INObjectHandle>
@@ -1600,8 +1601,8 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Registrar  solicitud de baja de bienes</_name>
 			<_modifiedTimeWeak type="a">3.1.2021::8:2:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.1.2021::5:1:58</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTime type="a">7.16.2020::7:57:25</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">3.1.2021::8:2:32</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -1615,6 +1616,7 @@
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID a4aa388a-9c28-4170-bf00-55a414b9c2cd</value>
+				<value>GUID a110b437-ded2-4842-855a-e6a1dc8c0e63</value>
 				<value>GUID e96f14de-ed00-4a9d-ba1e-c5434cc89429</value>
 			</AggregatesList>
 		</IUseCase>
@@ -1639,10 +1641,44 @@
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\Reutilizables.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU::Reutilizables</_hsubsystem>
+					<_hfilename type="a">.\Reutilizable.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::Reutilizable</_hsubsystem>
 					<_hname type="a">consultar causa</_hname>
 					<_hid type="a">GUID e1765449-fcd6-4aad-8282-6963ebaed122</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 0aec190c-c0e1-4c25-9d95-2bdc23bd564f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID a110b437-ded2-4842-855a-e6a1dc8c0e63</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Buscar Empleado</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">7.16.2020::7:57:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.16.2020::7:57:25</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\Reutilizable.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::Reutilizable</_hsubsystem>
+					<_hname type="a">Buscar Empleado</_hname>
+					<_hid type="a">GUID 99183881-1dd3-4cd3-b290-f8f03ef6f19d</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -1776,8 +1812,8 @@
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\Reutilizables.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU::Reutilizables</_hsubsystem>
+					<_hfilename type="a">.\Reutilizable.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::Reutilizable</_hsubsystem>
 					<_hname type="a">Buscar propuesta</_hname>
 					<_hid type="a">GUID b94d8183-05ab-4b4a-ad3b-4bac1e7b959a</_hid>
 				</INObjectHandle>
@@ -1810,8 +1846,8 @@
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\Reutilizables.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU::Reutilizables</_hsubsystem>
+					<_hfilename type="a">.\Reutilizable.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::Reutilizable</_hsubsystem>
 					<_hname type="a">Buscar propuesta</_hname>
 					<_hid type="a">GUID b94d8183-05ab-4b4a-ad3b-4bac1e7b959a</_hid>
 				</INObjectHandle>
