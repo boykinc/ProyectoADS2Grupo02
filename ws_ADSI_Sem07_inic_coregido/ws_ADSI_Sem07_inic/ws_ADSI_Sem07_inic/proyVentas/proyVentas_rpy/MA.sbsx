@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.16.2020::5:19:25</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.16.2020::5:15:27</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,9 +33,9 @@
 					<_hid type="a">GUID 41860435-cd61-4c7e-82af-6bb50dfdf9c9</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">7.16.2020::9:32:17</_modifiedTime>
+			<_modifiedTime type="a">7.16.2020::6:14:37</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">7.16.2020::5:19:25</weakCGTime>
+			<weakCGTime type="a">7.16.2020::5:15:27</weakCGTime>
 			<strongCGTime type="a">7.16.2020::5:3:54</strongCGTime>
 			<_defaultComposite type="s">GUID b72a4f41-593b-4c77-879c-51bacca3e3c7</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -46,6 +46,7 @@
 				<value>GUID 5377bf3e-2775-4c79-8237-75102c4ad329</value>
 				<value>GUID bb8e8144-ef60-4505-b70d-7fca64f9c541</value>
 				<value>GUID 517b7ff7-7a05-476b-bba1-d38361f3c931</value>
+				<value>GUID 711eb89f-11bb-4823-a01f-c6343a224a62</value>
 				<value>GUID b72a4f41-593b-4c77-879c-51bacca3e3c7</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -233,8 +234,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.16.2020::6:48:15</_modifiedTime>
-			<_lastModifiedTime type="a">7.16.2020::6:48:15</_lastModifiedTime>
+			<_modifiedTime type="a">7.16.2020::5:15:22</_modifiedTime>
+			<_lastModifiedTime type="a">7.16.2020::5:15:22</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -766,7 +767,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.177632 0 0 0.0999131 315 109 </m_transform>
+			<m_transform type="a">0.177632 0 0 0.0999131 327 109 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1100,6 +1101,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">GestionBajaBienes</fileName>
 			<_id type="a">GUID 517b7ff7-7a05-476b-bba1-d38361f3c931</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">ModeloDatos</fileName>
+			<_id type="a">GUID 711eb89f-11bb-4823-a01f-c6343a224a62</_id>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID b72a4f41-593b-4c77-879c-51bacca3e3c7</_id>
