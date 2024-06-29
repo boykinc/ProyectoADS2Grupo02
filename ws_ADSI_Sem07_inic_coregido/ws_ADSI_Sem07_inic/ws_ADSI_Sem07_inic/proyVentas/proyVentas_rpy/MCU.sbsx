@@ -11,7 +11,7 @@
 			<_id type="a">GUID f17cd5ef-cc12-4449-9464-5b7d36a62e57</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MCU</_name>
-			<_modifiedTimeWeak type="a">5.1.2015::5:24:25</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.2.2021::6:21:14</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -19,9 +19,9 @@
 					<_hid type="a">GUID 41860435-cd61-4c7e-82af-6bb50dfdf9c9</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.1.2015::15:40:40</_modifiedTime>
+			<_modifiedTime type="a">2.2.2021::6:22:8</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">5.1.2015::5:24:25</weakCGTime>
+			<weakCGTime type="a">2.2.2021::6:21:14</weakCGTime>
 			<strongCGTime type="a">3.1.2021::17:9:28</strongCGTime>
 			<_defaultComposite type="s">GUID ebc10d59-31e1-47f3-af4c-15639dd6fcdc</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -4657,14 +4657,14 @@
 			<_id type="a">GUID 2cfbfcf3-29ad-40a9-a164-90a59a17c45e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Encargado de Logistica</_name>
-			<_modifiedTimeWeak type="a">2.2.2021::5:16:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.2.2021::5:7:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hid type="a">GUID dc75654e-fc11-4cbe-a45e-72d68abb6866</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.2.2021::5:16:58</_modifiedTime>
+			<_modifiedTime type="a">2.2.2021::5:7:10</_modifiedTime>
 			<weakCGTime type="a">2.2.2021::5:16:58</weakCGTime>
 			<strongCGTime type="a">7.26.2021::5:3:29</strongCGTime>
 			<_itsStateChart type="r">
@@ -4679,6 +4679,9 @@
 				<value>GUID f8b709d2-610a-4d3d-8336-51ffb30b3ba4</value>
 				<value>GUID 834a53c4-f24f-4dd7-a972-3c3bdc842f56</value>
 				<value>GUID ace517da-46c7-4146-b514-79a84fd1b604</value>
+				<value>GUID bd7359cf-23a5-417a-bd14-c7d8d4e33f5a</value>
+				<value>GUID 3be45a07-a929-42f4-8464-982e075f01ce</value>
+				<value>GUID cb826a64-d24a-4a53-88f1-680ccadaf889</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -4855,11 +4858,98 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bd7359cf-23a5-417a-bd14-c7d8d4e33f5a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Generar_Expediente_1</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::5:4:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::5:4:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hname type="a">CI_Generar_Expediente</_hname>
+					<_hid type="a">GUID 307b1afd-e2f2-4d75-9b26-e4dccb6c3641</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hclass type="a">CI_Generar_Expediente</_hclass>
+					<_hname type="a">itsEncargado de Logistica_1</_hname>
+					<_hid type="a">GUID 251588e0-82d0-4f78-925f-93bce0d230c8</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3be45a07-a929-42f4-8464-982e075f01ce</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Generar_Expediente_2</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::5:7:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::5:7:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hname type="a">CI_Generar_Expediente</_hname>
+					<_hid type="a">GUID 307b1afd-e2f2-4d75-9b26-e4dccb6c3641</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hclass type="a">CI_Generar_Expediente</_hclass>
+					<_hname type="a">itsEncargado de Logistica_2</_hname>
+					<_hid type="a">GUID deac7443-97c6-43ff-afc0-f7ff75701935</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cb826a64-d24a-4a53-88f1-680ccadaf889</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Generar_Expediente_3</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::5:7:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::5:7:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hname type="a">CI_Generar_Expediente</_hname>
+					<_hid type="a">GUID 307b1afd-e2f2-4d75-9b26-e4dccb6c3641</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\GestionAltaBienes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::GestionAltaBienes</_hsubsystem>
+					<_hclass type="a">CI_Generar_Expediente</_hclass>
+					<_hname type="a">itsEncargado de Logistica_3</_hname>
+					<_hid type="a">GUID 63a5f9de-7738-4be4-81d4-fdfd1adff0ba</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID 08b46613-294d-428d-8cfb-7210c37f446a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Gerente de Admin y Fina</_name>
-			<_modifiedTimeWeak type="a">5.1.2015::5:29:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.2.2021::6:21:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4869,8 +4959,8 @@
 					<_hid type="a">GUID 45d69b54-4902-4e87-99b8-80342ab5f418</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.1.2015::5:29:49</_modifiedTime>
-			<weakCGTime type="a">7.16.2020::6:17:38</weakCGTime>
+			<_modifiedTime type="a">2.2.2021::6:21:57</_modifiedTime>
+			<weakCGTime type="a">2.2.2021::6:21:57</weakCGTime>
 			<strongCGTime type="a">7.26.2021::5:3:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4885,6 +4975,9 @@
 				<value>GUID 0ce7507b-a5e9-4508-8553-a79ec9e9a929</value>
 				<value>GUID 31ff3c4f-3154-4c24-b521-4b1187b8fb43</value>
 				<value>GUID f10683cc-3a5e-46ac-be1d-2ad0753f6c6d</value>
+				<value>GUID bc7a9f26-006d-4933-854e-df844f0d1f00</value>
+				<value>GUID 15a15884-ddbd-43ba-b54d-03735163ff57</value>
+				<value>GUID 8f335dde-42a5-490f-9cd6-b295af3152e2</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -5085,6 +5178,93 @@
 					<_hclass type="a">CI_Principal</_hclass>
 					<_hname type="a">itsGerente de Admin y Fina</_hname>
 					<_hid type="a">GUID 6700d829-334f-4a00-92c4-2088b39cebab</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bc7a9f26-006d-4933-854e-df844f0d1f00</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFormResgistrarSolicitud</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::6:21:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::6:21:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">FormResgistrarSolicitud</_hname>
+					<_hid type="a">GUID b6e4df34-507f-4707-89ad-3f5e09539dc7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">FormResgistrarSolicitud</_hclass>
+					<_hname type="a">itsGerente de Admin y Fina</_hname>
+					<_hid type="a">GUID 6a3bde58-f062-49f4-b590-caba60349b09</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 15a15884-ddbd-43ba-b54d-03735163ff57</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMenuPrincipal_JSPClient</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::6:21:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::6:21:42</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">MenuPrincipal_JSPClient</_hname>
+					<_hid type="a">GUID 6779a2fe-3a22-41cd-bf3e-e7bd9346c8a8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">MenuPrincipal_JSPClient</_hclass>
+					<_hname type="a">itsGerente de Admin y Fina</_hname>
+					<_hid type="a">GUID 7e4730e4-7c8e-4daa-bac0-65a166c24b61</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 8f335dde-42a5-490f-9cd6-b295af3152e2</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMenuPrincipal_JSPClient_1</_name>
+			<_modifiedTimeWeak type="a">2.2.2021::6:21:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.2.2021::6:21:57</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">MenuPrincipal_JSPClient</_hname>
+					<_hid type="a">GUID 6779a2fe-3a22-41cd-bf3e-e7bd9346c8a8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">MenuPrincipal_JSPClient</_hclass>
+					<_hname type="a">itsGerente de Admin y Fina_1</_hname>
+					<_hid type="a">GUID 11a42d49-c1c9-4b69-bfcc-d5e70448428a</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
