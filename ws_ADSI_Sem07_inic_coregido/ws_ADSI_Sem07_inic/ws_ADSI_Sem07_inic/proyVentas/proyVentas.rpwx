@@ -43,7 +43,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">710 326 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -75,7 +75,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">-2 30 </_UpLeft>
 						<_DownRight type="a">692 344 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -107,7 +107,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 10 </_UpLeft>
 						<_DownRight type="a">642 318 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -139,7 +139,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">720 308 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -171,7 +171,7 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">710 326 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -195,21 +195,21 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\proyVentas_rpy\MD.sbsx</_hfilename>
-								<_hsubsystem type="a">MD</_hsubsystem>
+								<_hfilename type="a">.\proyVentas_rpy\GestionAltaBienes_1.sbsx</_hfilename>
+								<_hsubsystem type="a">MD::GestionAltaBienes</_hsubsystem>
 								<_hname type="a">DCD-Resgistrar Solicitud</_hname>
 								<_hid type="a">GUID 0e5f96b1-0723-40fb-b15d-60b59e2af4ba</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">734 100 </_UpLeft>
-						<_DownRight type="a">1839 796 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<_UpLeft type="a">49 0 </_UpLeft>
+						<_DownRight type="a">1347 734 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\CIBERTEC\GitHub\ProyectoADS2Grupo02\ws_ADSI_Sem07_inic_coregido\ws_ADSI_Sem07_inic\ws_ADSI_Sem07_inic\proyVentas\proyVentas</_fullName>
+			<_fullName type="a">D:\GitHub\ProyectoADS2Grupo02\ws_ADSI_Sem07_inic_coregido\ws_ADSI_Sem07_inic\ws_ADSI_Sem07_inic\proyVentas\proyVentas</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
